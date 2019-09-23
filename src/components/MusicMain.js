@@ -18,9 +18,11 @@ class MusicMain extends Component {
 
     onKeyPressHandler = (event) => {
         if (event.key === 'Enter') {
-            this.SearchHandler();
+            //this.SearchHandler("1234");
+            this.search();  
         }
     }
+    search = this.SearchHandler();
 
     SearchHandler = () => {
         console.log(this.state)
@@ -46,7 +48,7 @@ class MusicMain extends Component {
                     onChange={this.artistSearchHandler}
                     onKeyPress={this.onKeyPressHandler}
                 />
-                <button onClick={this.SearchHandler}>Search</button>
+                <button onClick={this.search}>Search</button>
                 <Artist artist={this.state.artistName} />
                 <Tracks tracks={this.state.tracks} />
             </div>

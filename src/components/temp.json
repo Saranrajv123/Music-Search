@@ -1,0 +1,42 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=1234&type=artist&offset=0&limit=1",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3RJZEmtrjpVOMZSZLxrzQr"
+        },
+        "followers": { "href": null, "total": 13 },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3RJZEmtrjpVOMZSZLxrzQr",
+        "id": "3RJZEmtrjpVOMZSZLxrzQr",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ca1751554735e15fbfc0899197bdaa18d5c3c871",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/a1e1cce3ccf097040bfb389fa007ba7f49a9648f",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/80c6672a7239a163479ab104bac572cfbd3947b6",
+            "width": 64
+          }
+        ],
+        "name": "The Face 1234",
+        "popularity": 36,
+        "type": "artist",
+        "uri": "spotify:artist:3RJZEmtrjpVOMZSZLxrzQr"
+      }
+    ],
+    "limit": 1,
+    "next": "https://api.spotify.com/v1/search?query=1234&type=artist&offset=1&limit=1",
+    "offset": 0,
+    "previous": null,
+    "total": 5
+  }
+}
